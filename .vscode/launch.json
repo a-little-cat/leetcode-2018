@@ -8,8 +8,10 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/median_of_two_sorted_arrays/build/median.exe",
-            "args": [],
+            "program": "${workspaceFolder}/roman_to_int/build/roman.exe",
+            "args": [
+                "CMLII"
+            ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

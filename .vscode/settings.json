@@ -42,6 +42,8 @@
         "sstream": "cpp",
         "algorithm": "cpp",
         "types.h": "c",
-        "string.h": "c"
-    }
+        "string.h": "c",
+        "functional": "cpp"
+    },
+    "python.formatting.provider": "yapf"
 }

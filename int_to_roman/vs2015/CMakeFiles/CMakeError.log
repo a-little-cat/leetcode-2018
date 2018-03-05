@@ -1,0 +1,54 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+1
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 18/3/2 14:48:25。
+节点 1 上的项目“C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: The build tools for LLVM-vs2014 (Platform Toolset = 'LLVM-vs2014') cannot be found. To build using the LLVM-vs2014 build tools, please install LLVM-vs2014 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution". [C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdC\CompilerIdC.vcxproj]
+已完成生成项目“C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标) (1) ->
+(PlatformPrepareForBuild 目标) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: The build tools for LLVM-vs2014 (Platform Toolset = 'LLVM-vs2014') cannot be found. To build using the LLVM-vs2014 build tools, please install LLVM-vs2014 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution". [C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.10
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+1
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 18/3/2 14:48:25。
+节点 1 上的项目“C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: The build tools for LLVM-vs2014 (Platform Toolset = 'LLVM-vs2014') cannot be found. To build using the LLVM-vs2014 build tools, please install LLVM-vs2014 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution". [C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+已完成生成项目“C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标) (1) ->
+(PlatformPrepareForBuild 目标) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: The build tools for LLVM-vs2014 (Platform Toolset = 'LLVM-vs2014') cannot be found. To build using the LLVM-vs2014 build tools, please install LLVM-vs2014 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution". [C:\Users\cat\Documents\GitHub\leetcode_c++\int_to_roman\vs2015\CMakeFiles\3.8.2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.10
+
+
