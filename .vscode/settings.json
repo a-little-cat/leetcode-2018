@@ -45,5 +45,6 @@
         "string.h": "c",
         "functional": "cpp"
     },
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "autopep8",
+    "python.pythonPath": "C:\\Users\\cat\\AppData\\Local\\Programs\\Python\\Python36\\python.exe"
 }

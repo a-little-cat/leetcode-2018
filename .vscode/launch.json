@@ -8,11 +8,11 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/roman_to_int/build/roman.exe",
+            "program": "${workspaceFolder}/phone_number_to_letter/build/letter.exe",
             "args": [
                 "CMLII"
             ],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
