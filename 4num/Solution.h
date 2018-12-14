@@ -1,9 +1,11 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
 class Solution
 {
-  public:
-    int example(string s);
+public:
+  vector<vector<int>> fourSum(vector<int> &nums, int target);
 };
