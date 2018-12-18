@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/4num/build/4num.exe",
+            "program": "${workspaceFolder}/mtsl/build/mtsl.exe",
             "args": [
                 "CMLII"
             ],

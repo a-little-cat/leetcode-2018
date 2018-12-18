@@ -1,15 +1,25 @@
-#include "solution.h"
+#include "Solution.h"
 
-int add_node(ListNode *head, int val)
+int add_node(ListNode **head, int val)
 {
-    while (head != NULL)
-        head = head->next;
-    head = new ListNode(val);
+    if (*head == NULL)
+    {
+        *head = new ListNode(val);
+        return 0;
+    }
+    ListNode *p = *head;
+    while (p->next != NULL)
+        p = p->next;
+    p->next = new ListNode(val);
     return 0;
 }
 
 int print_node(ListNode *l)
 {
+    if (l == NULL)
+        printf("list is empty\n");
+    printf("%d", l->val);
+    l = l->next;
     while (l != NULL)
     {
         printf("->%d", l->val);
@@ -19,41 +29,18 @@ int print_node(ListNode *l)
     return 0;
 }
 
-ListNode *
-Solution::mergeTwoLists(ListNode *l1, ListNode *l2)
+ListNode *Solution::mergeTwoLists(ListNode *l1, ListNode *l2)
 {
-    ListNode *l = NULL;
-    ListNode *tmp = NULL;
+    ListNode head0(0);
+    ListNode *l = &head0;
     while (l1 != NULL && l2 != NULL)
     {
-        if (l1->val < l2->val)
-        {
-            add_node(l, l1->val);
-            ListNode *tmp = l1->next;
-            free(l1);
-            l1 = tmp;
-        }
-        else
-        {
-            add_node(l, l2->val);
-            tmp = l2->next;
-            free(l2);
-            l2 = tmp;
-        }
+        ListNode **nextNode = (l1->val <= l2->val) ? &l1 : &l2;
+        l->next = *nextNode;
+        *nextNode = (*nextNode)->next;
+        l = l->next;
     }
-    while (l1 != NULL)
-    {
-        add_node(l, l1->val);
-        tmp = l1->next;
-        free(l1);
-        l1 = tmp;
-    }
-    while (l2 != NULL)
-    {
-        add_node(l, l2->val);
-        tmp = l2->next;
-        free(l2);
-        l2 = tmp;
-    }
-    return l;
+    l->next = l1 ? l1 : l2;
+
+    return head0.next;
 }
