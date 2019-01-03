@@ -8,10 +8,8 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/gene_parentese/build/gene_parentese.exe",
-            "args": [
-                "CMLII"
-            ],
+            "program": "${workspaceFolder}/merge_k_sorted_list/build/merge_k_sorted_list.exe",
+            "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
