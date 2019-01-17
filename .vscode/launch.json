@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/reverse_nodes_in_k_group/build/reverse_nodes_in_k_group.exe",
+            "program": "${workspaceFolder}/Remove_Duplicates_from_Sorted_Array/build/Remove_Duplicates_from_Sorted_Array.exe",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
