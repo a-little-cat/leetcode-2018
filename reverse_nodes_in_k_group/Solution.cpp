@@ -33,46 +33,37 @@ ListNode *Solution::reverseKGroup(ListNode *head, int k)
 {
     if (head == NULL)
         return head;
-    if (k <= 2)
+    if (k < 2)
         return head;
     ListNode ret(0);
     ret.next = head;
     ListNode *top = &ret;
-    ListNode *end = 0;
-    ListNode **nodes = (ListNode **)malloc(sizeof(ListNode *) * (k + 2));
-    int flag = 1;
+    ListNode *end = top;
+    ListNode *tmp_node = 0;
+    ListNode *new_top = 0;
+
     while (1)
     {
-        for (int i = 0; i <= k; i++)
+        for (int i = 0; i < k; i++)
         {
-            if (top != NULL)
+            if (end->next != NULL)
             {
-                nodes[i] = top;
-                top = top->next;
+                end = end->next;
             }
             else
             {
-                flag = 0;
-                break;
+                return ret.next;
             }
         }
-        nodes[k + 1] = top;
-
-        if (flag == 1)
+        new_top = top->next;
+        for (int i = 0; i < k - 1; i++)
         {
-            nodes[0]->next = nodes[k];
-            nodes[1]->next = nodes[k + 1];
-            for (int i = 2; i <= k; i++)
-            {
-                nodes[i]->next = nodes[i - 1];
-            }
-            top = nodes[1];
+            tmp_node = top->next;
+            top->next = tmp_node->next;
+            tmp_node->next = end->next;
+            end->next = tmp_node;
         }
-        else
-        {
-            break;
-        }
+        top = new_top;
+        end = new_top;
     }
-    free(nodes);
-    return ret.next;
 }
