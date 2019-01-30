@@ -12,8 +12,7 @@
             ],
             "windowsSdkVersion": "10.0.17763.0",
             "cStandard": "c11",
-            "configurationProvider": "1",
-            "compileCommands": "D:/code/GitHub/leetcode_c++/Implement_strStr/build/compile_commands.json"
+            "configurationProvider": "1"
         }
     ],
     "version": 4
