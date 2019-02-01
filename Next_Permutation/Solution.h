@@ -6,5 +6,5 @@ using namespace std;
 class Solution
 {
   public:
-    int example(string s);
+    void nextPermutation(vector<int> &nums);
 };

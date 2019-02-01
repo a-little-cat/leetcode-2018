@@ -6,5 +6,5 @@ using namespace std;
 class Solution
 {
   public:
-    int example(string s);
+    vector<int> findSubstring(string s, vector<string> &words);
 };
